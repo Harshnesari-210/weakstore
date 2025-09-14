@@ -1,5 +1,5 @@
 {
-  "name": "@harsh_nesari/weakstore",
+  "name": "weakstorejs",
   "version": "1.0.0",
   "description": "A lightweight library for storing private data with multiple keys per object using WeakMap.",
   "main": "index.js",
