@@ -1,0 +1,13 @@
+{
+  "name": "weakstore",
+  "version": "1.0.0",
+  "description": "A lightweight library for storing private data for objects using WeakMap.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": ["weakmap", "private", "store", "object", "hidden", "secret"],
+  "author": "Harsh Nesari",
+  "license": "MIT"
+}
