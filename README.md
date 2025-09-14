@@ -6,6 +6,9 @@
 
 A **lightweight library** to store **private data for objects** in JavaScript using `WeakMap`, supporting **multiple keys per object**.
 
+Check It:🔗 [NPM Package](https://www.npmjs.com/package/weakstorejs)
+
+
 ---
 
 ## 🔹 Why WeakStoreJS?
