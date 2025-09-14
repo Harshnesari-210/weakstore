@@ -13,7 +13,7 @@ Check It:🔗 [NPM Package](https://www.npmjs.com/package/weakstorejs)
 
 ## 🔹 Why WeakStoreJS?
 
-JavaScript doesn’t have built-in private properties for plain objects. `WeakMap` can help, but its API can be verbose. **WeakStoreJS** simplifies this:
+JavaScript doesn’t provide true private properties for plain objects. While WeakMap can help, its API can be verbose. WeakStoreJS offers a simpler, cleaner way to manage private data for objects.
 
 - Store multiple private keys per object easily.
 - Automatically garbage-collected when objects are removed.
