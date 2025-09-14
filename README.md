@@ -28,6 +28,31 @@ npm install weakstorejs
 yarn add weakstorejs
 ```
 
+## 🔹 Usage
+
+```javascript
+import createPrivateStore from 'weakstorejs';
+
+// Create a private store
+const privateStore = createPrivateStore();
+
+// Example object
+const user = { name: 'Harsh' };
+
+// Store private data
+privateStore.set(user, 'creditCard', '1234-5678-9012-3456');
+
+// Retrieve private data
+console.log(privateStore.get(user, 'creditCard')); // Output: 1234-5678-9012-3456
+
+// Check if key exists
+console.log(privateStore.has(user, 'creditCard')); // Output: true
+
+// Delete a key
+privateStore.delete(user, 'creditCard');
+console.log(privateStore.has(user, 'creditCard')); // Output: false
+```
+
 ## 🔹 API
 
 | Method | Description |
