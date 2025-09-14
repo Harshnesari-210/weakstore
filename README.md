@@ -1,25 +1,38 @@
-# WeakStore
+# WeakStoreJS 🚀
 
-A lightweight library for storing **private data for objects** using `WeakMap`.
+![npm](https://img.shields.io/npm/v/weakstorejs?color=brightgreen)
+![npm downloads](https://img.shields.io/npm/dt/weakstorejs)
+![License](https://img.shields.io/npm/l/weakstorejs)
 
----
-
-## Why WeakStore?
-
-In JavaScript, objects do not have built-in private fields (unless using classes with `#private`).  
-Sometimes you want to attach sensitive or hidden data to an object **without exposing it publicly**.  
-
-WeakStore solves this by:
-
-- Safely storing multiple "private keys" per object.
-- Ensuring memory safety (data is automatically garbage collected when objects are gone).
-- Simplifying the use of `WeakMap` with a clean and easy API.
-- Making your code cleaner and easier to maintain.
+A **lightweight library** to store **private data for objects** in JavaScript using `WeakMap`, supporting **multiple keys per object**.
 
 ---
 
-## Installation
+## 🔹 Why WeakStoreJS?
+
+JavaScript doesn’t have built-in private properties for plain objects. `WeakMap` can help, but its API can be verbose. **WeakStoreJS** simplifies this:
+
+- Store multiple private keys per object easily.
+- Automatically garbage-collected when objects are removed.
+- Clean, intuitive API.
+- Makes your code safer and easier to maintain.
+
+---
+
+## ⚡ Installation
 
 ```bash
-npm install weakstore
+npm install weakstorejs
 ```
+```yarn
+yarn add weakstorejs
+```
+
+## 🔹 API
+
+| Method | Description |
+|--------|-------------|
+| `set(obj, key, value)` | Store a value for a specific object and key |
+| `get(obj, key)` | Retrieve the value of a specific key |
+| `has(obj, key)` | Check if a key exists for a specific object |
+| `delete(obj, key)` | Remove a key from a specific object |
